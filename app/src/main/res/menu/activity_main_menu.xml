@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/login1"
+            app:itemIconTint="@color/Azul"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/edit"
+            app:itemIconTint="@color/Azul"
+            android:icon="@drawable/logo"
+            android:title="perfil" />
+        <item
+            android:id="@+id/nav_slideshow1"
+            android:icon="@drawable/login1"
+            android:title="Productos" />
+        <item
+            android:id="@+id/Comentario"
+            android:icon="@drawable/logo"
+            android:title="Comentarios" />
+        <item
+            android:id="@+id/Descargar"
+            android:icon="@drawable/login1"
+            android:title="Descargas" />
+
+    </group>
+
+    <item
+        android:title="Opciones">
+
+        <menu>
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/logo"
+                android:title="Cerrar la sesión"/>
+        </menu>
+
+
+    </item>
+</menu>

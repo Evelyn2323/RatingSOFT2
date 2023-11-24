@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".ui.Calendario.Calendario">
+
+<!--    tools:context=".MainActivity"-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <!--Primer Nombre -->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primer Nombre"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextPrimerNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords" />
+
+        <!-- Segundo Nombre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segundo Nombre"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/kipñjhjk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords" />
+
+        <!-- Primer Apellido -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primer Apellido"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextPrimerApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords" />
+
+        <!-- Segundo Apellido-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segundo Apellido"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextSegundoApelldi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords" />
+
+        <!-- Segundo Nombre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha De Nacimiento"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextFecha"
+            android:layout_margin="16dp"
+            android:hint="Seleccionar Fecha"
+            android:focusable="false"
+            android:clickable="true"
+            android:focusableInTouchMode="false"            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords" />
+
+        <!-- Segundo Nombre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segundo Nombre"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextSegundoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords" />
+        <!-- Botones de navegación -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGuardarDatosPersonales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="Guardar" />
+
+            <Button
+                android:id="@+id/btnActualizarDatosPersonales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Actualizar" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
